@@ -1,0 +1,106 @@
+@media (max-width: 991px){
+	.section-hd .subtitle{font-size: 16px; position: relative;}
+	.home-news .section-hd,.home-events .section-hd{height:auto;}
+	.section-hd .subtitle a{position: absolute;margin: 0;top: 0; right: 0;}
+	.section-hd .subtitle2{margin-bottom: 0 !important;}
+	.jiandangtop{margin-top: 0 !important;}
+	.jiandangtop .jiandanginner{padding-top: 0 !important;}
+	.jiandangtop2{padding-top: 30px !important;}
+	.content-section .section-hd h4{font-size: 18px;margin: 0;}
+	.moreList2{margin-top: 0 !important;}
+	
+}
+/*文字超出一行用省略号表示*/
+.tEllipsis{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.section-hd .subtitle a{font-size: 12px !important;}
+.section-hd .subtitle a:hover{color: #fff !important;}
+.news-list ul li:hover,.event-list ul li:hover {
+    box-shadow: 0 0 15px 1px rgba(0,0,0,.1);
+}
+.moreList a:hover{border: #B51C22 1px solid;color: #B51C22 !important;}
+/*轮播图高度调整*/
+@media only screen and (max-width: 991px){
+	.home-carousel-wrap .home-carousel-item .item-image{min-height: 250px !important;}
+	.home-headline .home-carousel-wrap .home-carousel-item .item-image{height: 25vh !important;}
+}
+@media only screen and (max-width: 991px){
+.home-carousel-wrap .home-carousel-item .item-content .item-content-box {
+    margin: 0 auto;
+    left: auto;
+    width: 100%;
+    max-width: 100%;
+    padding:10px 10px 60px 10px !important;
+    position: absolute !important;
+    /*border: #fff solid 1px;*/
+   background: rgba(255, 252, 255, 0.8);
+    bottom: initial;
+    
+}
+.home-carousel-wrap .home-carousel .slick-dots{position: absolute !important;bottom:-5px;}
+.home-carousel-wrap .home-carousel-item .item-content h3{font-size: 18px !important;margin-bottom: 10px !important;display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.home-carousel-wrap .home-carousel-item .item-content p{display:block;white-space:nowrap !important;overflow:hidden;text-overflow:ellipsis;}
+.inner{padding: 20px !important;}
+.news-list .news-item .item-content,.event-list .event-item .item-content{
+	width: 100% !important;
+	padding: 10px !important;
+	position:static !important;
+	min-height: auto;
+}
+.news-list .news-item .item-content h4{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+
+.news-list .news-item .item-content .news_tags{float: left;}
+.news-list .news-item .item-content .read-more-mb{float: right;}
+.news-list .news-item .item-content{min-height: 100px !important;}
+.event-list .event-item .item-content h4{padding-bottom: 0 !important;}
+.slick-dots li button,.home-carousel-wrap .home-carousel .slick-dots li button:before{width: 8px !important;height: 8px !important;}
+.slick-dots li{margin: 0 !important;}
+
+
+}
+/*底部菜单*/
+.global-footer .footer-side ul li{position: relative;}
+.codeBox{position: absolute;top: -150px;display: none;border: #eee 1px solid;}
+.global-footer .footer-side ul li:hover .codeBox{display: block;}
+.footerMenu{margin-bottom: 15px;}
+.footerMenu a{color: #fff;margin: 0 15px;font-size: 14px;}
+.footerMenu a:active,.footerMenu a:hover{color: #fff;}
+
+/*css2有同样样式开始*/
+@media only screen and (max-width: 767px){
+.global-topbar,.front #navigation, .not-front #navigation {background: rgb(255 255 255 / 40%) !important;}
+.global-topbar,.front #navigation0, .not-front #navigation0 {background: rgba(91, 86, 90, 0.95) !important;}
+
+.viewBox{margin-top: 0 !important;padding-top: 15px !important;}
+.paddingBott{padding-bottom: 0 !important;}
+.discover-list.movein > ul > li{border: 0 !important;}
+ #popDiv{
+            width: 90% !important;
+           height: 100% !important;
+           top: 30% !important;
+        }
+        
+}
+.global-topbar .topbar-logo{width: 120px !important;line-height: none;}
+.global-topbar .topbar-logo img{vertical-align: top;}
+.front #navigation, .not-front #navigation{padding-top: 0 !important;}
+/*css2有同样样式*/
+/*首页效果添加*/
+ #popDiv{
+            display: none;
+            z-index: 11;
+           width: 50%;
+           height: 50%;
+            position:fixed;
+            top:0;
+            right:0;
+            left:0;
+            bottom:0;
+            margin:auto;
+        }
+        /* 关闭按钮样式 */
+        /* 弹出界面的关闭按钮 */
+        #popDiv .close{
+            text-align: right;
+            background-color: #F8F8F8;
+        }
+    
