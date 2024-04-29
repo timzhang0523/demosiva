@@ -68,7 +68,7 @@
 /*css2有同样样式开始*/
 @media only screen and (max-width: 767px){
 .global-topbar,.front #navigation, .not-front #navigation {background: rgb(255 255 255 / 40%) !important;}
-.global-topbar,.front #navigation0, .not-front #navigation0 {background: rgba(91, 86, 90, 0.95) !important;}
+.global-topbar,.front #navigation0, .not-front #navigation0 {background: rgba(167, 165, 168, 0.95) !important;}
 
 .viewBox{margin-top: 0 !important;padding-top: 15px !important;}
 .paddingBott{padding-bottom: 0 !important;}
